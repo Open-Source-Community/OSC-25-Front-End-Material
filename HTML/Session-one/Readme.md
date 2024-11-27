@@ -182,7 +182,7 @@
 
       The output is:
 
-      ![Headings](./imgs/Headings.png)
+      ![Headings](../imgs/Headings.png)
 
   ----------------------------------------------------------------
 
@@ -207,7 +207,7 @@
 
       The output is:
 
-      ![Headings](./imgs/Paragraph.png)
+      ![Headings](../imgs/Paragraph.png)
 
       Note: The second paragraph is not visible because it has an attribute called hidden.
 
@@ -303,7 +303,7 @@
 
     Output:
 
-    ![unorderedListPicture](./imgs/UnorderedList.png)
+    ![unorderedListPicture](../imgs/UnorderedList.png)
 
     2- Ordered List : Created by element `<ol>` and inside it some list items `<li>`.
 
@@ -323,7 +323,7 @@
 
     Output:
 
-    ![orderedListPicture](./imgs/OrderedList.png)
+    ![orderedListPicture](../imgs/OrderedList.png)
 
     - attribute reversed : reverses the order of the list items.
 
@@ -351,7 +351,7 @@
 
     Output:
 
-    ![descriptionListPicture](./imgs/DescriptionList.png)
+    ![descriptionListPicture](../imgs/DescriptionList.png)
 
       inside it:
 
@@ -381,7 +381,7 @@
 
     Output:
 
-    ![SpanPicture](./imgs/Span.png)
+    ![SpanPicture](../imgs/Span.png)
 
   ----------------------------------------------------------------
 
