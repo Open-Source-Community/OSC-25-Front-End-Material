@@ -155,7 +155,7 @@
 
     Output:
 
-    ![TablesPicture](./imgs/Tables.png)
+    ![TablesPicture](../imgs/Tables.png)
     - SubElements (All is optional but recommended for organizing the table):
 
       - `<thead>` : is for adding header to the table.
@@ -214,7 +214,7 @@
 
     Output:
 
-    ![DivPicture](./imgs/Divisions.png)
+    ![DivPicture](../imgs/Divisions.png)
 
   ----------------------------------------------------------------
 
@@ -234,7 +234,7 @@
 
     Output:
 
-    ![EntitiesPicture](./imgs/Entities.png)
+    ![EntitiesPicture](../imgs/Entities.png)
 
   ----------------------------------------------------------------
 
@@ -281,7 +281,7 @@
 
     Output:
 
-    ![SemanticsPicture](./imgs/Semantics.png)
+    ![SemanticsPicture](../imgs/Semantics.png)
 
   ----------------------------------------------------------------
 
@@ -328,7 +328,7 @@
 
       Output:
 
-      ![DivsExPicture](./imgs/Example%201%20(Divs).png)
+      ![DivsExPicture](../imgs/Example%201%20(Divs).png)
 
       Now, Let's make the same simple page using semantic elements.
 
@@ -371,7 +371,7 @@
 
       Output:
 
-      ![SemanticsExPicture](./imgs/Example%202%20(Semantics).png)
+      ![SemanticsExPicture](../imgs/Example%202%20(Semantics).png)
 
       And also, the final view is the same. So, using semantic elements is very important.
   
@@ -677,7 +677,7 @@
 
     Output:
 
-    ![formExPicture](./imgs/Form.png)
+    ![formExPicture](../imgs/Form.png)
 
   ----------------------------------------------------------------
 
