@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Book Collection</h2>
+  <div id="books"></div>
+
+  <script>
+    let books = [
+      { 
+        title: "JavaScript Essentials", 
+        author: "Sarah Johnson",
+        year: 2022,
+        id: 1,
+      },
+      {
+        title: "Web Development Basics",
+        author: "Mike Chen",
+        year: 2021,
+        id: 2,
+      }
+    ];
+
+    function renderBooks() {
+      const container = document.getElementById("books");
+      container.innerHTML = "";
+      
+      for (let i = 0; i < books.length; i++) {
+        const book = books[i];
+        
+        const card = document.createElement("div");
+        card.className = "book-card";
+        
+        card.innerHTML = `
+        <div>
+            <h3 class="book-title">${book.title}</h3>
+            <p class="author">By ${book.author}</p>
+            <p>Published: ${book.year}</p>
+            <button class="remove-btn" onclick="removeBook(${i})">
+              Remove
+            </button>  
+        </div>
+        `;
+        
+        container.appendChild(card);
+      }
+    }
+
+    function removeBook(index) {
+      books.splice(index, 1);
+      renderBooks();
+    }
+
+    renderBooks();
+  </script>
+</body>
+</html>
