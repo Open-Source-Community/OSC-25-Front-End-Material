@@ -1,4 +1,4 @@
-# React.js Tutorial Session 4
+# React.js Tutorial Session 2
 
 * ## Fragment
 
